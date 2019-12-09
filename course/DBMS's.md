@@ -1,8 +1,8 @@
 # DBMS's
 
-#### Arquitectura
+## Arquitectura
 
-ANSI / SPARC (70s)
+### ANSI / SPARC (70s)
 
 1. externo vista diseñador
 2. conceptual (unido con la parte externa) vista diseñador
@@ -11,7 +11,7 @@ ANSI / SPARC (70s)
 
 
 
-cliente servidor (dos capas)
+### Cliente servidor (dos capas)
 
 el cliente realiza consultas al servidor de base de datos, mediante un escuchador
 
@@ -23,13 +23,13 @@ cliente recibe resultado de consulta
 
 
 
-cliente aplicacion servidor (tres capas)
+### Cliente aplicacion servidor (tres capas)
 
 se añade una aplicacion intermedia para conectar con la base de datos. ejemplo php
 
 
 
-MVC (modelo vista controlador)
+### MVC (modelo vista controlador)
 
 independizar lo que se realiza
 
@@ -41,15 +41,21 @@ modelo - modelo logico de negocios (programacion que realiza la conexion)
 
 
 
+------
 
-
-
-
-
-
-## Definiciones
+# Definiciones
 
 Entidad es un objeto particular
+
+##### Enditad propietaria 
+
+departamento
+
+##### Entidad miembro
+
+empleado
+
+
 
 
 
@@ -65,25 +71,7 @@ una flecha continua miembro obligatorio
 
 
 
-Enditad propietaria 
-
-departamento
-
-Entidad miembro
-
-empleado
-
-
-
-
-
-
-
-
-
-
-
-Bachman
+#### Bachman
 
 linea con lflecha negra uno o muchos
 
@@ -93,23 +81,9 @@ linea con lflecha blanca cero o muchos
 
 
 
+## Fases
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-analisis
+#### Analisis
 
 analisis de la situacion de la organizacion
 
@@ -119,17 +93,15 @@ definicno de objetivos
 
 definicion de alcance y limitaciones
 
-d
 
 
-
-diseño
+#### Diseño
 
 cracion de diseño 
 
 
 
-implementacion
+#### Implementacion
 
 instalacion dbms
 
